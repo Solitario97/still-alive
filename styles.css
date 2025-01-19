@@ -1,0 +1,72 @@
+.cards {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    grid-template-rows: repeat(4, 180px);
+    grid-template-areas:
+        "card-1 card-1 card-2 card-8"
+        "card-3 card-3 card-2 card-8"
+        "card-4 card-5 card-6 card-6"
+        "card-4 card-5 card-7 card-7"
+    ;
+}
+
+
+.card-1 {
+    grid-area: card-1;
+    background: url('/img/cars4.jpg');
+}
+
+.total__setting:hover {
+    transform: scale(1.01);
+    /* хотелось бы еще добавить тени, но не понял как работает box-shadow */
+}
+
+.card-2 {
+    grid-area: card-2;
+    background: url('/img/cars2.jpg');
+}
+
+.card-3 {
+    grid-area: card-3;
+    background: url('/img/cars3.jpg');
+    transform: scaleX(-1);
+
+}
+
+.card-4 {
+    grid-area: card-4;
+    background: url('/img/cars4.jpg');
+    transform: scaleX(-1);
+}
+
+.card-5 {
+    display: flex;
+    grid-area: card-5;
+    background: url('/img/cars5.jpg');
+}
+
+.card-6 {
+    grid-area: card-6;
+    background: url('/img/cars6.jpg');
+}
+
+.card-7 {
+    grid-area: card-7;
+    background: url('/img/cars7.jpg');
+    transform: scaleX(-1);
+}
+
+.card-8 {
+    grid-area: card-8;
+    background: url('/img/cars8.jpg');
+}
+
+.total__setting {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
