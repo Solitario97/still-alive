@@ -25,12 +25,12 @@
 
 .card-2 {
     grid-area: card-2;
-    background: url('/img/cars2.jpg');
+    background: url('./img/cars2.jpg');
 }
 
 .card-3 {
     grid-area: card-3;
-    background: url('/img/cars3.jpg');
+    background: url('//img/cars3.jpg');
     transform: scaleX(-1);
 
 }
