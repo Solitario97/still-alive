@@ -15,7 +15,7 @@
 
 .card-1 {
     grid-area: card-1;
-    background: url('./img/cars4.jpg');
+    background: url('../img/cars4.jpg');
 }
 
 .total__setting:hover {
