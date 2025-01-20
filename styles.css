@@ -10,12 +10,13 @@
         "card-4 card-5 card-6 card-6"
         "card-4 card-5 card-7 card-7"
     ;
+    background-color: yellow;
 }
 
 
 .card-1 {
     grid-area: card-1;
-    background-image: url('../img/cars4.jpg');
+    background-image: url('img/cars4.jpg');
 }
 
 .total__setting:hover {
@@ -25,12 +26,12 @@
 
 .card-2 {
     grid-area: card-2;
-    background-image: url('./img/cars2.jpg');
+    background-image: url('img/cars2.jpg');
 }
 
 .card-3 {
     grid-area: card-3;
-    background-image: url('.//img/cars3.jpg');
+    background-image: url('img/cars3.jpg');
     transform: scaleX(-1);
 
 }
@@ -44,23 +45,23 @@
 .card-5 {
     display: flex;
     grid-area: card-5;
-    background-image: url('../img/cars5.jpg');
+    background-image: url('img/cars5.jpg');
 }
 
 .card-6 {
     grid-area: card-6;
-    background-image: url('/img/cars6.jpg');
+    background-image: url('img/cars6.jpg');
 }
 
 .card-7 {
     grid-area: card-7;
-    background-image: url('/img/cars7.jpg');
+    background-image: url('img/cars7.jpg');
     transform: scaleX(-1);
 }
 
 .card-8 {
     grid-area: card-8;
-    background-image: url('/img/cars8.jpg');
+    background-image: url('img/cars8.jpg');
 }
 
 .total__setting {
