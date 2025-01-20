@@ -37,14 +37,14 @@
 
 .card-4 {
     grid-area: card-4;
-    background-image: url('/img/cars4.jpg');
+    background-image: url('img/cars4.jpg');
     transform: scaleX(-1);
 }
 
 .card-5 {
     display: flex;
     grid-area: card-5;
-    background-image: url('/img/cars5.jpg');
+    background-image: url('../img/cars5.jpg');
 }
 
 .card-6 {
