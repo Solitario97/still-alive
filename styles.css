@@ -15,7 +15,7 @@
 
 .card-1 {
     grid-area: card-1;
-    background-image: url('../img/cars4.jpg');
+    background-image: url(../img/cars4.jpg);
 }
 
 .total__setting:hover {
@@ -25,26 +25,26 @@
 
 .card-2 {
     grid-area: card-2;
-    background-image: url('./img/cars2.jpg');
+    background-image: url(./img/cars2.jpg);
 }
 
 .card-3 {
     grid-area: card-3;
-    background-image: url('//img/cars3.jpg');
+    background-image: url(//img/cars3.jpg);
     transform: scaleX(-1);
 
 }
 
 .card-4 {
     grid-area: card-4;
-    background-image: url('/img/cars4.jpg');
+    background-image: url(/img/cars4.jpg);
     transform: scaleX(-1);
 }
 
 .card-5 {
     display: flex;
     grid-area: card-5;
-    background-image: url('/img/cars5.jpg');
+    background-image: url(/img/cars5.jpg);
 }
 
 .card-6 {
